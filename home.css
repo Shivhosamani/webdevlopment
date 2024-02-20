@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+.boxes div {
+    display:inline-block;
+    height: 50px;
+    text-align: center;
+    width: 100px;
+    text-wrap: wrap;
+    background-color: aliceblue;
+    color: rgb(2, 2, 2);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    border-radius: 0.2cm;
+    box-shadow: 0 0  20px rgb(92, 194, 220);
+}
+.boxes div:hover{
+    background-color: aquamarine;
+    box-shadow: 0 0  20px rgb(68, 233, 68);
+    transform: translateY(10px);
+
+}
+
+.boxes{
+    margin: 20%;
+    justify-content: space-around;
+}
